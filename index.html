@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSMinna task 13</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="form-wrapper">
+        <div class="button-switch">
+          <button class="switch" id="signUpBtn">Sign Up</button>
+          <button class="switch" id="loginBtn">Login</button>
+        </div>
+        <div class="form">
+          <!--Sign-up-->
+          <div class="form-control" id="signup">
+            <form action="" method="post" name="registration">
+              <input
+                class="formInput"
+                type="text"
+                name="full-name"
+                id="full-name"
+                placeholder="Full name"
+              />
+              <input
+                class="formInput"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                class="formInput"
+                type="tel"
+                name="telephone"
+                id="telephone"
+                placeholder="Mobile number"
+              />
+              <input
+                class="formInput"
+                type="text"
+                name="gender"
+                id="gender"
+                placeholder="Gender"
+              />
+              <input
+                class="formInput"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <div class="submit">
+                <button type="submit" class="submit-btn">Sign up</button>
+                <p>Already have an account? please click login.</p>
+              </div>
+            </form>
+          </div>
+          <!--Login-->
+          <div class="form-control" id="login" name="registration" `>
+            <form action="" method="post">
+              <input
+                class="formInput"
+                type="email"
+                name="email"
+                id="emailLogin"
+                placeholder="Email"
+              />
+              <input
+                class="formInput"
+                type="password"
+                name="password"
+                id="passwordLogin"
+                placeholder="Password"
+              />
+              <div class="submit">
+                <button type="submit" class="submit-btn">login</button>
+                <p>Don't have an account? please click sign up</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="./index.js"></script>
+</html>
